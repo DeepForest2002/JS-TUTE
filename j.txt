@@ -1,0 +1,128 @@
+we can write the javascript code inside the body, head and also we can write externally
+////
+Map function of array
+1.The map() method creates a new array by performing a new function on each array element 
+2. The map function does not execute the functions for array elements without values 
+3. The map method does not change the original array.
+This method takes 3 parameters
+ The item value, the item index and the array itself 
+
+
+Filter method
+1.The filter method creates a new array that pass the tets 
+this also takes 3 parameters like map function 
+
+//Reduce method 
+The reduce() method runs a function on each array element to produce (reduce it to) a single value.
+
+The reduce() method works from left-to-right in the array. See also reduceRight().
+
+reduce method takes 4 arguments 
+1. total, values, index and The whole Array 
+
+Array Every method() checks if all the array elements pass the test or not?
+it takes three arguements as map method 
+it returns false if one of all elements can't pass the test andret returns True if all the elements pass the test...
+
+The some() method checks if one of the array element pass the test..
+it takes three parameters like map method..
+///
+
+///
+Date()
+new date(), new date(year,month,day, hours, minutes, seconds, miliseconds)
+new date(miliseconds), new date(date string)
+Date.parse() method change a vaild date to miliseconds .
+///
+
+
+///
+Math Property
+the syntax of math property is Math.property
+like Math.PI(shown pi),
+Math.sqrt2(square root of 2)
+There are 4 common methods to round a number 
+math.round(), math.celi(), math.floor(), math.trune();
+Math.pow(x,y) returns the value of x to the power of y
+sin() method in math : sin(degree* Math.pI/180);
+same with cos()
+Math have many methods also like- Math.log(), min(),max() etc..
+
+Math.random and math.floor methods
+math.random()method returns a random integer value between 1 and 0 and 
+math.floor() is used to return a random integer value..
+///
+
+
+||
+== equal to 
+=== equal to and equal type 
+!= not equal to 
+!== not equal value or not equal type 
+||
+Switch statement
+syntax
+switch(expression)
+case 1
+break;
+case2
+break;
+default;
+Switch cases uses strict comparision.. (===)
+that means the value must be of same type same value
+ |||
+
+///
+for(key in object)
+{
+    //code block to be executed
+}
+The forEach() method calls a funcion for each array element..
+
+///Sets 
+new Set()	Creates a new Set
+add()	Adds a new element to the Set
+delete()	Removes an element from a Set
+has()	Returns true if a value exists in the Set
+forEach()	Invokes a callback for each element in the Set
+values()	Returns an iterator with all the values in a Set
+Property	Description
+size	Returns the number of elements in a Set
+
+Export and Import 
+first Export
+export default function say()
+{
+    console.log("Say Hello");
+}
+Then Import
+import speak from './app.js';
+speak();
+
+Differnece between object and arrays
+objects use {}
+Array are using []
+objects are nothing but advance versions of array
+
+Sequence Control 
+
+//callback
+The examples above are not very exciting.
+
+They are simplified to teach you the callback syntax.
+
+Where callbacks really shine are in asynchronous functions, where one function has to wait for another function (like waiting for a file to load).
+
+Asynchronous functions are covered in the next chapter.
+Functions running in parallel with other functions are called asynchronous
+Set time out is one of the Asynchronus functions
+
+//Promise syntax
+let promise = new promise(function(Myreslove, Myreject){
+    Myreslove()
+    Myreject()
+})
+promise.then(
+    function(value){mydis(value)}
+    function(error){mydis(error)}
+)
